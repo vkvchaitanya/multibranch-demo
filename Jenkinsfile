@@ -19,7 +19,7 @@ pipeline{
         }
         stage('Deploy To Prod'){
             when{
-                branch 'master'
+                branch 'main'
             }
             steps{
                 echo "Deploy to Prod servers ..."
